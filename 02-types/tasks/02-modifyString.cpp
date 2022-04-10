@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+void modifyString(string& str)
 // TODO: Implement modifyString()
 // It should modify passed string to text "Other string"
 

@@ -1,9 +1,7 @@
 #include <iostream>
 #include <string>
 
-// TODO: Implement modifyString()
-// It should modify passed string to text "Other string"
-
+void modifyString(string& str)
 int main() {
     std::string str{"Some string"};
     modifyString(str);

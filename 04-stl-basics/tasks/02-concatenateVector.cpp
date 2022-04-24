@@ -1,8 +1,16 @@
 #include <iostream>
 #include <vector>
 
-// Implement concatenateVector.
-// It should take 2 vectors and return one which has alternately elements from the first and the other one.
+std::vector<int> concatenateVector(const std::vector<int>& left,
+                                   const std::vector<int>& right) {
+    std::vector<int> result;
+    for (size_t i = 0; i < left.size(); ++i) {
+        result.push_back(left[i]);
+        result.push_back(right[i]);
+    }
+
+    return result;
+}
 
 int main() {
     std::vector<int> vec1 {1, 2, 3, 4, 5};
